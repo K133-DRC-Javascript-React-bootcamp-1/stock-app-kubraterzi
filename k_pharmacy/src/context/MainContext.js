@@ -93,6 +93,8 @@ const medicationList = [
   },
 ];
 
+
+//MainContextProvider Component
 const MainContextProvider = ({ children }) => {
   const [medications, setMedications] = useState(medicationList);
 
